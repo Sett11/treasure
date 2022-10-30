@@ -1,0 +1,41 @@
+    html {
+        width: 100%;
+    }
+    
+    body {
+        width: 100%;
+        background: goldenrod;
+    }
+    
+    #map {
+        margin-left: 20%;
+        display: flex;
+        justify-content: center;
+        border: 1px solid;
+        border-radius: 45% 55%;
+    }
+    
+    #distanse,
+    #clicks {
+        font-size: 20px;
+    }
+    
+    .heady {
+        display: flex;
+        justify-content: center;
+        background: rgb(243, 203, 203);
+        border: 5 px solid;
+        border-radius: 50%;
+    }
+    
+    .headyBad {
+        background: rgb(248, 5, 5);
+    }
+    
+    .map {
+        visibility: hidden;
+    }
+    
+    .mapOpen {
+        visibility: visible;
+    }
